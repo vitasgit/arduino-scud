@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <button type="submit" name="command" value="1">Вкл</button>
+        <button type="submit" name="command" value="0">Выкл</button>
+    </form>
+</body>
+</html>
